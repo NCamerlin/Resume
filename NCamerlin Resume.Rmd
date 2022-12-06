@@ -1,0 +1,86 @@
+---
+title: "NCamerlin Resume"
+author: Nathan R Camerlin
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # Thanks to Eric R. Scott for this tip! 
+    self_contained: false
+knit: pagedown::chrome_print
+---
+
+# Aside
+
+![Data](data_icon.png){width="30%"} <!-- ![Data](`r here::here("data_icon.png")`) -->
+
+## Contact Info {#contact}
+
+-   <i class="fa fa-envelope"></i>[Nathan.Camerlin\@tufts.edu](mailto:Nathan.Camerlin@tufts.edu){.email}
+-   <i class="fa fa-github"></i> [github.com/NCamerlin/](https://github.com/NCamerlin/)
+
+## Skills {#skills}
+
+-   Experienced in running multivariate regression.
+
+-   Performing **data analysis**, with a focus on engineering models
+
+-   Experienced in **data communication** and client relations
+
+-   Experience with **Python/R/C++**
+
+-   Proficient in **Data Visualization** with Matplotlib, Seaborn, ggplot, etc...
+
+## Disclaimer {#disclaimer}
+
+<!--This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).-->
+
+Last updated on `r Sys.Date()`.
+
+# Main
+
+## Nathan R. Camerlin {#title}
+
+### Data Analytics student and FTE at Tufts University
+
+## Education {data-icon="graduation-cap" data-concise="true"}
+
+### Tufts University
+
+Post Bachelor Certificate in Data Analytics
+
+Medford, MA
+
+2022--Current
+
+### Tufts University
+
+B.S. in Psychology, Economics
+
+Medford, MA
+
+2017-2021
+
+## Research Experience {data-icon="flask"}
+
+### Undergraduate Research Assistant
+
+Tufts University
+
+Medford, MA
+
+2018--2020
+
+-   Provided feedback on hypotheses and research questions
+-   Aided in the development of experimental materials
+-   Ran participants through experiments and followed IRB protocols
+-   Collected and cleaned experiment data
+
+## Selected Presentations {data-icon="comment-alt"}
+
+### DATA-200 Final Project
+
+Presented a model for mortgage loan performance, and summarized main results and assumptions of the model to my cohort.
+
+Medford, MA
+
+December 2022
